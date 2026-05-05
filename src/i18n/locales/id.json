@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "portfolio": "Portofolio",
+    "journey": "Perjalanan",
+    "contact": "Kontak",
+    "startProject": "Mulai Proyek"
+  },
+  "hero": {
+    "available": "Terbuka untuk Full-Time & Proyek",
+    "subtitle": "Graphic Designer",
+    "tagline": "Menciptakan pengalaman visual yang memukau melalui desain inovatif dan solusi kreatif yang tak terlupakan.",
+    "viewPortfolio": "Lihat Portofolio",
+    "contactMe": "Hubungi Saya",
+    "yearsExperience": "Tahun Pengalaman"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "heading": "Membangun Pengalaman",
+    "headingHighlight": "Visual",
+    "headingEnd": "yang Berkesan",
+    "description1": "Saya adalah Hamadani Wa Shofi, seorang Designer Grafis yang berdedikasi untuk menciptakan solusi visual yang tidak hanya estetis tetapi juga memiliki tujuan dan arah yang jelas. Bagi saya, setiap proyek adalah kesempatan untuk membangun identitas dan menyampaikan pesan yang kuat melalui desain.",
+    "description2": "Pendekatan saya menggabungkan kreativitas dengan strategi dan pemahaman brand yang mendalam, memastikan setiap detail memiliki makna. Saya percaya bahwa desain yang baik bukan hanya terlihat menarik, tetapi mampu membangun persepsi, memperkuat brand, dan meninggalkan kesan yang tak terlupakan.",
+    "highlights": {
+      "creativity": "Konsep Visual Kreatif",
+      "digitalDesign": "Desain Digital & Media Sosial",
+      "brandStrategy": "Strategi Branding & Arah Visual",
+      "visualIdentity": "Logo & Identitas Visual"
+    }
+  },
+  "skills": {
+    "title": "Keahlian",
+    "heading": "Skillset &",
+    "headingHighlight": "Expertise",
+    "description": "Kombinasi keahlian teknis dan kreatif yang saya kembangkan selama bertahun-tahun untuk memberikan hasil terbaik.",
+    "stats": {
+      "projects": "Proyek Selesai",
+      "clients": "Klien Puas",
+      "experience": "Tahun Pengalaman",
+      "satisfaction": "Tingkat Kepuasan"
+    }
+  },
+  "portfolio": {
+    "title": "Portofolio",
+    "heading": "Karya",
+    "headingHighlight": "Terbaik",
+    "description": "Kumpulan proyek desain yang mencerminkan kualitas dan kreativitas dalam setiap detail.",
+    "filters": {
+      "all": "Semua",
+      "graphic": "Grafis",
+      "web": "Web",
+      "building": "Bangunan"
+    },
+    "buttons": {
+      "detail": "Detail",
+      "viewMore": "Lihat Lebih Banyak",
+      "viewLess": "Lihat Lebih Sedikit"
+    },
+    "items": {
+      "adidasSamba": {
+        "title": "Adidas Samba Poster",
+        "badge": "Poster Produk",
+        "description": "Visual poster produk sepatu dengan komposisi minimalis dan fokus pada produk utama.",
+        "details": "Poster produk Adidas Samba dengan nuansa coklat netral, komposisi produk yang dominan, dan copy singkat yang menonjolkan karakter street-style dari sepatu."
+      },
+      "burgerDaily": {
+        "title": "Burger Daily Promo",
+        "badge": "Promo F&B",
+        "description": "Desain promosi burger dengan warna merah-kuning yang kuat dan headline besar.",
+        "details": "Poster promosi Burger Daily dibuat untuk menarik perhatian cepat di media sosial, dengan fokus pada foto produk, harga, dan promo buy 2 get 1 free."
+      },
+      "elanNoir": {
+        "title": "Elan Noir Parfum",
+        "badge": "Visual Produk",
+        "description": "Visual parfum premium dengan mood gelap, elegan, dan tipografi mewah.",
+        "details": "Desain visual Elan Noir menonjolkan kesan luxury melalui warna hitam, aksen emas, tekstur marmer, dan penempatan produk yang clean sebagai pusat perhatian."
+      },
+      "goldenArka": {
+        "title": "Golden Arka Residence",
+        "badge": "Poster Properti",
+        "description": "Desain promosi properti dengan layout editorial dan nuansa modern elegan.",
+        "details": "Poster Golden Arka Residence menggabungkan foto hunian, informasi benefit, CTA, dan kontak dalam satu layout yang rapi untuk kebutuhan promosi properti."
+      },
+      "kebabRev": {
+        "title": "Kebab Promo Arabic",
+        "badge": "Promo F&B",
+        "description": "Desain promo kebab berbahasa Arab dengan warna cerah dan CTA yang tegas.",
+        "details": "Poster promosi kebab menggunakan komposisi merah-kuning yang energik, visual makanan yang kuat, teks Arab sebagai headline, dan tombol CTA untuk mendorong aksi."
+      }
+    }
+  },
+  "journey": {
+    "title": "Perjalanan",
+    "heading": "Karier",
+    "headingHighlight": "Timeline",
+    "description": "Perjalanan saya dalam dunia desain grafis, dari mulai belajar hingga siap berkembang di lingkungan kerja profesional.",
+    "milestones": {
+      "2018": {
+        "title": "Mulai Belajar Desain Grafis",
+        "description": "Mulai mempelajari dasar-dasar desain grafis, komposisi visual, warna, tipografi, dan layout untuk membangun fondasi kreatif."
+      },
+      "2021": {
+        "title": "Memulai Freelance Desain Grafis",
+        "description": "Mulai menerima proyek desain grafis freelance, terutama untuk kebutuhan promosi, media sosial, dan visual brand sederhana."
+      },
+      "2023": {
+        "title": "Membangun Portofolio",
+        "description": "Mengembangkan gaya desain, memperbanyak karya portofolio, dan belajar menyusun visual yang lebih rapi, komunikatif, dan siap dipresentasikan."
+      },
+      "2025": {
+        "title": "Siap Berkarier Full-Time",
+        "description": "Terbuka untuk bergabung di lingkungan kerja profesional sebagai desainer grafis, baik untuk posisi full-time maupun penempatan offline."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontak",
+    "heading": "Mari",
+    "headingHighlight": "Bekerja Sama",
+    "description": "Terbuka untuk kesempatan kerja full-time, penempatan offline, maupun kolaborasi proyek desain.",
+    "form": {
+      "name": "Nama",
+      "namePlaceholder": "Nama Anda",
+      "email": "Email",
+      "emailPlaceholder": "email@anda.com",
+      "message": "Pesan",
+      "messagePlaceholder": "Ceritakan tentang proyek Anda...",
+      "submit": "Kirim Pesan",
+      "success": "Pesan berhasil dikirim! Saya akan menghubungi Anda segera."
+    },
+    "info": {
+      "location": "Lokasi",
+      "locationValue": "Blitar, Indonesia",
+      "locationDetail": "Tersedia untuk kerja offline, remote, dan on-site",
+      "availability": "Terbuka untuk Full-Time",
+      "availabilityDetail": "Saat ini saya terbuka untuk posisi full-time, kerja offline, dan kolaborasi proyek desain."
+    }
+  },
+  "footer": {
+    "description": "Desainer grafis, web, dan arsitektur yang berdedikasi untuk menciptakan pengalaman visual yang berkesan.",
+    "quickLinks": "Tautan Cepat",
+    "contact": "Kontak",
+    "copyright": "© {{year}} Hamdnws. All rights reserved.",
+    "madeWith": "Dibuat dengan"
+  },
+  "language": {
+    "title": "Bahasa",
+    "id": "Indonesia",
+    "en": "English"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "journey": "Journey",
+    "contact": "Contact",
+    "startProject": "Start Project"
+  },
+  "hero": {
+    "available": "Open to Full-Time & Projects",
+    "subtitle": "Graphic Designer",
+    "tagline": "Creating stunning visual experiences through innovative design and unforgettable creative solutions.",
+    "viewPortfolio": "View Portfolio",
+    "contactMe": "Contact Me",
+    "yearsExperience": "Years Experience"
+  },
+  "about": {
+    "title": "About Me",
+    "heading": "Building Memorable",
+    "headingHighlight": "Visual",
+    "headingEnd": "Experiences",
+    "description1": "I am Hamadani Wa Shofi, a Graphic Designer dedicated to creating visual solutions that are not only aesthetically pleasing but also purposeful and strategically driven. For me, every project is an opportunity to build identity and communicate powerful messages through design.",
+    "description2": "My approach combines creativity with strategic thinking and deep brand understanding, ensuring every detail has meaning. I believe great design is not just visually appealing, but capable of shaping perception, strengthening brands, and leaving a lasting impression.",
+    "highlights": {
+  "creativity": "Creative Visual Concepts",
+  "digitalDesign": "Digital & Social Media Design",
+  "brandStrategy": "Brand Strategy & Visual Direction",
+  "visualIdentity": "Logo & Visual Identity Design"
+}
+
+  },
+  "skills": {
+    "title": "Skills",
+    "heading": "Skillset &",
+    "headingHighlight": "Expertise",
+    "description": "A combination of technical and creative skills that I have developed over the years to deliver the best results.",
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "experience": "Years Experience",
+      "satisfaction": "Satisfaction Rate"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "heading": "Featured",
+    "headingHighlight": "Works",
+    "description": "A collection of design projects that reflect quality and creativity in every detail.",
+    "filters": {
+      "all": "All",
+      "graphic": "Graphic",
+      "web": "Web",
+      "building": "Building"
+    },
+    "buttons": {
+      "detail": "Detail",
+      "viewMore": "View More",
+      "viewLess": "View Less"
+    },
+    "items": {
+      "adidasSamba": {
+        "title": "Adidas Samba Poster",
+        "badge": "Product Poster",
+        "description": "Minimal product poster design with a strong focus on the main sneaker visual.",
+        "details": "Adidas Samba product poster with a neutral brown mood, dominant product composition, and short copy that highlights the shoe's street-style character."
+      },
+      "burgerDaily": {
+        "title": "Burger Daily Promo",
+        "badge": "F&B Promo",
+        "description": "Burger promotion design with bold red-yellow colors and oversized headline typography.",
+        "details": "Burger Daily promotional poster designed for quick attention on social media, focusing on product photography, pricing, and the buy 2 get 1 free offer."
+      },
+      "elanNoir": {
+        "title": "Elan Noir Perfume",
+        "badge": "Product Visual",
+        "description": "Premium perfume visual with a dark, elegant mood and luxury typography.",
+        "details": "Elan Noir visual design emphasizes a luxury impression through black tones, gold accents, marble texture, and clean product placement as the focal point."
+      },
+      "goldenArka": {
+        "title": "Golden Arka Residence",
+        "badge": "Property Poster",
+        "description": "Property promotion design with an editorial layout and modern elegant feel.",
+        "details": "Golden Arka Residence poster combines home photos, benefit copy, CTA, and contact details in a clean layout for property marketing needs."
+      },
+      "kebabRev": {
+        "title": "Arabic Kebab Promo",
+        "badge": "F&B Promo",
+        "description": "Arabic kebab promo design with bright colors and a strong call to action.",
+        "details": "Kebab promotional poster using energetic red-yellow composition, strong food visuals, Arabic headline text, and a CTA button to encourage action."
+      }
+    }
+  },
+  "journey": {
+    "title": "Journey",
+    "heading": "Career",
+    "headingHighlight": "Timeline",
+    "description": "My journey in graphic design, from learning the basics to being ready to grow in a professional work environment.",
+    "milestones": {
+      "2018": {
+        "title": "Started Learning Graphic Design",
+        "description": "Started learning the fundamentals of graphic design, visual composition, color, typography, and layout to build a creative foundation."
+      },
+      "2021": {
+        "title": "Started Freelance Graphic Design",
+        "description": "Started taking freelance graphic design projects, especially for promotional needs, social media, and simple brand visuals."
+      },
+      "2023": {
+        "title": "Built a Portfolio",
+        "description": "Developed a stronger design style, created more portfolio work, and learned to build visuals that are cleaner, more communicative, and presentation-ready."
+      },
+      "2025": {
+        "title": "Ready for Full-Time Work",
+        "description": "Open to joining a professional work environment as a graphic designer, both for full-time roles and offline placement."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Let's",
+    "headingHighlight": "Work Together",
+    "description": "Open to full-time opportunities, offline placement, and design project collaborations.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your Name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message",
+      "success": "Message sent successfully! I will contact you soon."
+    },
+    "info": {
+      "location": "Location",
+      "locationValue": "Blitar, Indonesia",
+      "locationDetail": "Available for offline, remote, and on-site work",
+      "availability": "Open to Full-Time",
+      "availabilityDetail": "Currently open to full-time roles, offline work, and design project collaborations."
+    }
+  },
+  "footer": {
+    "description": "A graphic, web, and architecture designer dedicated to creating memorable visual experiences.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "copyright": "© {{year}} Hamdnws. All rights reserved.",
+    "madeWith": "Made with"
+  },
+  "language": {
+    "title": "Language",
+    "id": "Indonesia",
+    "en": "English"
+  }
+}
