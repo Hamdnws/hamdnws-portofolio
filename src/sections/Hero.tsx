@@ -12,6 +12,7 @@ const Hero = () => {
   const ctaRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
   const glowRef = useRef<HTMLDivElement>(null);
+  const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -197,7 +198,7 @@ const Hero = () => {
             >
               <div className="absolute inset-0 rounded-3xl overflow-hidden glass glow-blue-soft">
                 <img
-                  src="/hero-image.jpg"
+                  src={publicAsset('hero-image.jpg')}
                   alt="Hamdnws Creative Design"
                   className="w-full h-full object-cover"
                 />

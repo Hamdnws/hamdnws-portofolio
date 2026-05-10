@@ -11,6 +11,7 @@ const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
   const imagesRef = useRef<HTMLDivElement>(null);
+  const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -138,7 +139,7 @@ const About = () => {
               {/* Image 1 - Top Left */}
               <div className="about-image absolute top-0 left-0 w-48 h-48 sm:w-56 sm:h-56 rounded-3xl overflow-hidden glass glow-blue-soft z-20 hover:z-50 transition-all duration-500 hover:scale-105">
                 <img
-                  src="/about-1.jpg"
+                  src={publicAsset('about-1.jpg')}
                   alt="Design Work 1"
                   className="w-full h-full object-cover"
                 />
@@ -147,7 +148,7 @@ const About = () => {
               {/* Image 2 - Top Right */}
               <div className="about-image absolute top-8 right-0 w-44 h-44 sm:w-52 sm:h-52 rounded-3xl overflow-hidden glass glow-blue-soft z-10 hover:z-50 transition-all duration-500 hover:scale-105">
                 <img
-                  src="/about-2.jpg"
+                  src={publicAsset('about-2.jpg')}
                   alt="Design Work 2"
                   className="w-full h-full object-cover"
                 />
@@ -156,7 +157,7 @@ const About = () => {
               {/* Image 3 - Bottom Left */}
               <div className="about-image absolute bottom-16 left-8 w-40 h-40 sm:w-48 sm:h-48 rounded-3xl overflow-hidden glass glow-blue-soft z-30 hover:z-50 transition-all duration-500 hover:scale-105">
                 <img
-                  src="/about-3.jpg"
+                  src={publicAsset('about-3.jpg')}
                   alt="Design Work 3"
                   className="w-full h-full object-cover"
                 />
@@ -165,7 +166,7 @@ const About = () => {
               {/* Image 4 - Bottom Right */}
               <div className="about-image absolute bottom-0 right-8 w-52 h-52 sm:w-60 sm:h-60 rounded-3xl overflow-hidden glass glow-blue-soft z-40 hover:z-50 transition-all duration-500 hover:scale-105">
                 <img
-                  src="/about-4.jpg"
+                  src={publicAsset('about-4.jpg')}
                   alt="Design Work 4"
                   className="w-full h-full object-cover"
                 />
