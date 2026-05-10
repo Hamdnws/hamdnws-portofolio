@@ -59,33 +59,45 @@
       "viewLess": "Lihat Lebih Sedikit"
     },
     "items": {
+      "shadowTshirt": {
+        "title": "Shadow T-Shirt Mockup",
+        "badge": "Personal Project",
+        "description": "Mockup desain kaos minimalis dengan konsep bayangan hitam-putih yang kuat.",
+        "details": "Personal project berupa desain kaos bertema Shadow, menampilkan eksplorasi visual hitam-putih, komposisi sederhana, dan penerapan desain pada mockup kaos depan-belakang."
+      },
+      "senjaBundle": {
+        "title": "Senja Coffee Bundle",
+        "badge": "Personal Project",
+        "description": "Desain promo bundle coffee latte dan croissant dengan nuansa hangat dan elegan.",
+        "details": "Personal project untuk visual promosi Senja Coffee & Space, menggunakan warna coklat hangat, tipografi editorial, dan penataan produk yang clean untuk menonjolkan paket coffee latte dan croissant."
+      },
       "adidasSamba": {
         "title": "Adidas Samba Poster",
-        "badge": "Poster Produk",
+        "badge": "Personal Project",
         "description": "Visual poster produk sepatu dengan komposisi minimalis dan fokus pada produk utama.",
         "details": "Poster produk Adidas Samba dengan nuansa coklat netral, komposisi produk yang dominan, dan copy singkat yang menonjolkan karakter street-style dari sepatu."
       },
       "burgerDaily": {
         "title": "Burger Daily Promo",
-        "badge": "Promo F&B",
+        "badge": "Personal Project",
         "description": "Desain promosi burger dengan warna merah-kuning yang kuat dan headline besar.",
         "details": "Poster promosi Burger Daily dibuat untuk menarik perhatian cepat di media sosial, dengan fokus pada foto produk, harga, dan promo buy 2 get 1 free."
       },
       "elanNoir": {
         "title": "Elan Noir Parfum",
-        "badge": "Visual Produk",
+        "badge": "Personal Project",
         "description": "Visual parfum premium dengan mood gelap, elegan, dan tipografi mewah.",
         "details": "Desain visual Elan Noir menonjolkan kesan luxury melalui warna hitam, aksen emas, tekstur marmer, dan penempatan produk yang clean sebagai pusat perhatian."
       },
       "goldenArka": {
         "title": "Golden Arka Residence",
-        "badge": "Poster Properti",
+        "badge": "Personal Project",
         "description": "Desain promosi properti dengan layout editorial dan nuansa modern elegan.",
         "details": "Poster Golden Arka Residence menggabungkan foto hunian, informasi benefit, CTA, dan kontak dalam satu layout yang rapi untuk kebutuhan promosi properti."
       },
       "kebabRev": {
         "title": "Kebab Promo Arabic",
-        "badge": "Promo F&B",
+        "badge": "Personal Project",
         "description": "Desain promo kebab berbahasa Arab dengan warna cerah dan CTA yang tegas.",
         "details": "Poster promosi kebab menggunakan komposisi merah-kuning yang energik, visual makanan yang kuat, teks Arab sebagai headline, dan tombol CTA untuk mendorong aksi."
       }

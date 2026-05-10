@@ -60,33 +60,45 @@
       "viewLess": "View Less"
     },
     "items": {
+      "shadowTshirt": {
+        "title": "Shadow T-Shirt Mockup",
+        "badge": "Personal Project",
+        "description": "Minimal t-shirt mockup design with a strong black-and-white shadow concept.",
+        "details": "Personal project for a Shadow-themed t-shirt design, exploring black-and-white visuals, simple composition, and front-back mockup application."
+      },
+      "senjaBundle": {
+        "title": "Senja Coffee Bundle",
+        "badge": "Personal Project",
+        "description": "Coffee latte and croissant bundle promotion design with a warm elegant mood.",
+        "details": "Personal project for Senja Coffee & Space promotional visuals, using warm brown tones, editorial typography, and clean product placement to highlight the coffee latte and croissant bundle."
+      },
       "adidasSamba": {
         "title": "Adidas Samba Poster",
-        "badge": "Product Poster",
+        "badge": "Personal Project",
         "description": "Minimal product poster design with a strong focus on the main sneaker visual.",
         "details": "Adidas Samba product poster with a neutral brown mood, dominant product composition, and short copy that highlights the shoe's street-style character."
       },
       "burgerDaily": {
         "title": "Burger Daily Promo",
-        "badge": "F&B Promo",
+        "badge": "Personal Project",
         "description": "Burger promotion design with bold red-yellow colors and oversized headline typography.",
         "details": "Burger Daily promotional poster designed for quick attention on social media, focusing on product photography, pricing, and the buy 2 get 1 free offer."
       },
       "elanNoir": {
         "title": "Elan Noir Perfume",
-        "badge": "Product Visual",
+        "badge": "Personal Project",
         "description": "Premium perfume visual with a dark, elegant mood and luxury typography.",
         "details": "Elan Noir visual design emphasizes a luxury impression through black tones, gold accents, marble texture, and clean product placement as the focal point."
       },
       "goldenArka": {
         "title": "Golden Arka Residence",
-        "badge": "Property Poster",
+        "badge": "Personal Project",
         "description": "Property promotion design with an editorial layout and modern elegant feel.",
         "details": "Golden Arka Residence poster combines home photos, benefit copy, CTA, and contact details in a clean layout for property marketing needs."
       },
       "kebabRev": {
         "title": "Arabic Kebab Promo",
-        "badge": "F&B Promo",
+        "badge": "Personal Project",
         "description": "Arabic kebab promo design with bright colors and a strong call to action.",
         "details": "Kebab promotional poster using energetic red-yellow composition, strong food visuals, Arabic headline text, and a CTA button to encourage action."
       }

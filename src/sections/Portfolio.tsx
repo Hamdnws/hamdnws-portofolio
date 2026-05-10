@@ -28,6 +28,24 @@ const Portfolio = () => {
   const portfolioItems: PortfolioItem[] = [
     {
       id: 1,
+      title: t('portfolio.items.shadowTshirt.title'),
+      badge: t('portfolio.items.shadowTshirt.badge'),
+      image: publicAsset('img%20portofolio/1.jpg'),
+      description: t('portfolio.items.shadowTshirt.description'),
+      details: t('portfolio.items.shadowTshirt.details'),
+      technologies: ['T-Shirt Mockup', 'Merchandise Design', 'Visual Concept'],
+    },
+    {
+      id: 2,
+      title: t('portfolio.items.senjaBundle.title'),
+      badge: t('portfolio.items.senjaBundle.badge'),
+      image: publicAsset('img%20portofolio/2.jpg'),
+      description: t('portfolio.items.senjaBundle.description'),
+      details: t('portfolio.items.senjaBundle.details'),
+      technologies: ['F&B Promotion', 'Social Media Design', 'Typography'],
+    },
+    {
+      id: 3,
       title: t('portfolio.items.adidasSamba.title'),
       badge: t('portfolio.items.adidasSamba.badge'),
       image: publicAsset('img%20portofolio/Adidas%20Samba%20copy.jpg'),
@@ -36,7 +54,7 @@ const Portfolio = () => {
       technologies: ['Product Poster', 'Photo Editing', 'Layout Design'],
     },
     {
-      id: 2,
+      id: 4,
       title: t('portfolio.items.burgerDaily.title'),
       badge: t('portfolio.items.burgerDaily.badge'),
       image: publicAsset('img%20portofolio/Burger%20Daily%20copy.jpg'),
@@ -45,7 +63,7 @@ const Portfolio = () => {
       technologies: ['F&B Promotion', 'Social Media Design', 'Typography'],
     },
     {
-      id: 3,
+      id: 5,
       title: t('portfolio.items.elanNoir.title'),
       badge: t('portfolio.items.elanNoir.badge'),
       image: publicAsset('img%20portofolio/elan%20noir%20copy.jpg'),
@@ -54,7 +72,7 @@ const Portfolio = () => {
       technologies: ['Luxury Branding', 'Product Visual', 'Typography'],
     },
     {
-      id: 4,
+      id: 6,
       title: t('portfolio.items.goldenArka.title'),
       badge: t('portfolio.items.goldenArka.badge'),
       image: publicAsset('img%20portofolio/Golden%20Arka%20Residence%20copy.jpg'),
@@ -63,7 +81,7 @@ const Portfolio = () => {
       technologies: ['Property Poster', 'Editorial Layout', 'Marketing Design'],
     },
     {
-      id: 5,
+      id: 7,
       title: t('portfolio.items.kebabRev.title'),
       badge: t('portfolio.items.kebabRev.badge'),
       image: publicAsset('img%20portofolio/Kebab%20Rev%20copy.jpg'),
