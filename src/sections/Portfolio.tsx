@@ -11,6 +11,7 @@ interface PortfolioItem {
   title: string;
   badge: string;
   image: string;
+  images?: string[];
   description: string;
   details?: string;
   technologies?: string[];
@@ -22,12 +23,27 @@ const Portfolio = () => {
   const gridRef = useRef<HTMLDivElement>(null);
   const [displayCount, setDisplayCount] = useState(6);
   const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
   const portfolioItems: PortfolioItem[] = [
     {
       id: 1,
+      title: t('portfolio.items.senjaPostSeries.title'),
+      badge: t('portfolio.items.senjaPostSeries.badge'),
+      image: publicAsset('img%20portofolio/post%201.jpg'),
+      images: [
+        publicAsset('img%20portofolio/post%201.jpg'),
+        publicAsset('img%20portofolio/post%202.jpg'),
+        publicAsset('img%20portofolio/post%203.jpg'),
+      ],
+      description: t('portfolio.items.senjaPostSeries.description'),
+      details: t('portfolio.items.senjaPostSeries.details'),
+      technologies: ['Carousel Post', 'Social Media Design', 'F&B Promotion'],
+    },
+    {
+      id: 2,
       title: t('portfolio.items.shadowTshirt.title'),
       badge: t('portfolio.items.shadowTshirt.badge'),
       image: publicAsset('img%20portofolio/1.jpg'),
@@ -36,7 +52,7 @@ const Portfolio = () => {
       technologies: ['T-Shirt Mockup', 'Merchandise Design', 'Visual Concept'],
     },
     {
-      id: 2,
+      id: 3,
       title: t('portfolio.items.senjaBundle.title'),
       badge: t('portfolio.items.senjaBundle.badge'),
       image: publicAsset('img%20portofolio/2.jpg'),
@@ -45,7 +61,7 @@ const Portfolio = () => {
       technologies: ['F&B Promotion', 'Social Media Design', 'Typography'],
     },
     {
-      id: 3,
+      id: 4,
       title: t('portfolio.items.adidasSamba.title'),
       badge: t('portfolio.items.adidasSamba.badge'),
       image: publicAsset('img%20portofolio/Adidas%20Samba%20copy.jpg'),
@@ -54,7 +70,7 @@ const Portfolio = () => {
       technologies: ['Product Poster', 'Photo Editing', 'Layout Design'],
     },
     {
-      id: 4,
+      id: 5,
       title: t('portfolio.items.burgerDaily.title'),
       badge: t('portfolio.items.burgerDaily.badge'),
       image: publicAsset('img%20portofolio/Burger%20Daily%20copy.jpg'),
@@ -63,7 +79,7 @@ const Portfolio = () => {
       technologies: ['F&B Promotion', 'Social Media Design', 'Typography'],
     },
     {
-      id: 5,
+      id: 6,
       title: t('portfolio.items.elanNoir.title'),
       badge: t('portfolio.items.elanNoir.badge'),
       image: publicAsset('img%20portofolio/elan%20noir%20copy.jpg'),
@@ -72,7 +88,7 @@ const Portfolio = () => {
       technologies: ['Luxury Branding', 'Product Visual', 'Typography'],
     },
     {
-      id: 6,
+      id: 7,
       title: t('portfolio.items.goldenArka.title'),
       badge: t('portfolio.items.goldenArka.badge'),
       image: publicAsset('img%20portofolio/Golden%20Arka%20Residence%20copy.jpg'),
@@ -81,7 +97,7 @@ const Portfolio = () => {
       technologies: ['Property Poster', 'Editorial Layout', 'Marketing Design'],
     },
     {
-      id: 7,
+      id: 8,
       title: t('portfolio.items.kebabRev.title'),
       badge: t('portfolio.items.kebabRev.badge'),
       image: publicAsset('img%20portofolio/Kebab%20Rev%20copy.jpg'),
@@ -159,6 +175,7 @@ const Portfolio = () => {
 
   const openModal = (item: PortfolioItem) => {
     setSelectedItem(item);
+    setSelectedImageIndex(0);
     setIsModalOpen(true);
     document.body.style.overflow = 'hidden';
   };
@@ -180,6 +197,19 @@ const Portfolio = () => {
     }
     
     setSelectedItem(displayedItems[newIndex]);
+    setSelectedImageIndex(0);
+  };
+
+  const navigateSelectedImage = (direction: 'prev' | 'next') => {
+    if (!selectedItem?.images?.length) return;
+
+    setSelectedImageIndex(prev => {
+      const lastIndex = selectedItem.images!.length - 1;
+      if (direction === 'prev') {
+        return prev > 0 ? prev - 1 : lastIndex;
+      }
+      return prev < lastIndex ? prev + 1 : 0;
+    });
   };
 
   return (
@@ -227,6 +257,16 @@ const Portfolio = () => {
                       alt={item.title}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
+                    {item.images && item.images.length > 1 && (
+                      <div className="absolute bottom-4 left-4 z-10 flex gap-1.5">
+                        {item.images.map((_, index) => (
+                          <span
+                            key={index}
+                            className="w-2 h-2 rounded-full bg-white/70 shadow"
+                          />
+                        ))}
+                      </div>
+                    )}
                     
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-dark/95 via-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -317,10 +357,42 @@ const Portfolio = () => {
               {/* Image */}
               <div className="relative aspect-[4/5] md:aspect-auto bg-dark/60">
                 <img
-                  src={selectedItem.image}
+                  src={selectedItem.images?.[selectedImageIndex] || selectedItem.image}
                   alt={selectedItem.title}
                   className="w-full h-full object-cover"
                 />
+                {selectedItem.images && selectedItem.images.length > 1 && (
+                  <>
+                    <button
+                      onClick={() => navigateSelectedImage('prev')}
+                      className="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:bg-white/10 transition-colors"
+                      aria-label="Previous image"
+                    >
+                      <ChevronLeft className="w-5 h-5" />
+                    </button>
+                    <button
+                      onClick={() => navigateSelectedImage('next')}
+                      className="absolute right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:bg-white/10 transition-colors"
+                      aria-label="Next image"
+                    >
+                      <ChevronRight className="w-5 h-5" />
+                    </button>
+                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex gap-2">
+                      {selectedItem.images.map((_, index) => (
+                        <button
+                          key={index}
+                          onClick={() => setSelectedImageIndex(index)}
+                          className={`h-2 rounded-full transition-all ${
+                            selectedImageIndex === index
+                              ? 'w-8 bg-neon-blue'
+                              : 'w-2 bg-white/50 hover:bg-white/80'
+                          }`}
+                          aria-label={`Show image ${index + 1}`}
+                        />
+                      ))}
+                    </div>
+                  </>
+                )}
               </div>
 
               {/* Content */}

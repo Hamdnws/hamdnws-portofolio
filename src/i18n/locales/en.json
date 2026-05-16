@@ -60,6 +60,12 @@
       "viewLess": "View Less"
     },
     "items": {
+      "senjaPostSeries": {
+        "title": "Senja Coffee Post Series",
+        "badge": "Personal Project",
+        "description": "Carousel post design series for a coffee shop promotion with a warm and calm mood.",
+        "details": "Personal project for Senja Coffee & Space carousel posts. The visuals keep a consistent warm coffee shop mood, elegant typography, and short copy to build a cozy morning coffee atmosphere."
+      },
       "shadowTshirt": {
         "title": "Shadow T-Shirt Mockup",
         "badge": "Personal Project",
